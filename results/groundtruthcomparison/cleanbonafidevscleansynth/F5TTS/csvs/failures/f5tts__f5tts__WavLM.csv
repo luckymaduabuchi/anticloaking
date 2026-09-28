@@ -1,0 +1,2 @@
+stem,trial,ref_stem,reason
+asvspoof_0063,genuine,asvspoof_0063,CUDA out of memory. Tried to allocate 1.30 GiB. GPU 0 has a total capacity of 11.81 GiB of which 1.20 GiB is free. Process 2307806 has 2.86 GiB memory in use. Process 2307838 has 3.10 GiB memory in us

@@ -1,0 +1,3 @@
+stem,trial,ref_stem,reason
+fakeavceleb_00576_African_men_id00761,genuine,fakeavceleb_00576_African_men_id00761,Calculated padded input size per channel: (5). Kernel size: (7). Kernel size can't be greater than actual input size
+fakeavceleb_00966_African_women_id01661,genuine,fakeavceleb_00966_African_women_id01661,Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size

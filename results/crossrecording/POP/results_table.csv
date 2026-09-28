@@ -1,0 +1,4 @@
+Data,SV,EER,EER_CI95,TAR@1%,TAR@1%_CI95,TAR@0.1%,TAR@0.01%,nFA@0.1%,nFA@0.01%,CI_method,minDCF,d_prime,overlap_coef,ROC_AUC,pAUC@1%FAR,pAUC@0.1%FAR,target_mean,target_median,impostor_mean,impostor_median,#T/#I
+CleanBonafideVsCloakedBonafide/POP,SB-ECAPA,0.3743,"[0.3659, 0.3845]",0.2707,"[0.2578, 0.2841]",0.1999,0.0323,47,4,cluster-by-stem,0.9829,0.8177,0.6753,0.684,0.2298,0.057,0.2105,0.0916,0.0225,0.0184,4798/47980
+CleanBonafideVsCloakedBonafide/POP,Resemblyzer,0.2514,"[0.2455, 0.2568]",0.2489,"[0.2361, 0.2637]",0.1496,0.0283,47,4,cluster-by-stem,0.9858,1.2875,0.5019,0.8356,0.2001,0.052,0.6645,0.6305,0.5207,0.5191,4798/47980
+CleanBonafideVsCloakedBonafide/POP,WavLM,0.2479,"[0.2423, 0.2548]",0.2257,"[0.2140, 0.2375]",0.1128,0.0271,47,4,cluster-by-stem,0.986,1.3803,0.4953,0.8339,0.1759,0.0554,0.8047,0.8297,0.5729,0.5798,4795/47950

@@ -1,0 +1,2 @@
+stem,trial,ref_stem,reason
+asvspoof_0063,genuine,asvspoof_0063,"CUDA out of memory. Tried to allocate 1.28 GiB. GPU 0 has a total capacity of 11.81 GiB of which 1.31 GiB is free. Including non-PyTorch memory, this process has 1.57 GiB memory in use. Process 230783"

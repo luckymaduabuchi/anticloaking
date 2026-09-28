@@ -1,0 +1,4 @@
+Data,SV,EER,EER_CI95,TAR@1%,TAR@1%_CI95,TAR@0.1%,TAR@0.01%,nFA@0.1%,nFA@0.01%,CI_method,minDCF,d_prime,overlap_coef,ROC_AUC,pAUC@1%FAR,pAUC@0.1%FAR,target_mean,target_median,impostor_mean,impostor_median,#T/#I
+CleanBonafideVsCloakedSynth/protectyouraudio_seedvc,SB-ECAPA,0.062,"[0.0579, 0.0662]",0.819,"[0.8068, 0.8313]",0.5639,0.241,48,4,cluster-by-stem,0.6124,3.1291,0.1206,0.9833,0.7102,0.4097,0.3634,0.3711,0.0239,0.0203,4850/48500
+CleanBonafideVsCloakedSynth/protectyouraudio_seedvc,Resemblyzer,0.0736,"[0.0691, 0.0780]",0.7249,"[0.7103, 0.7410]",0.4297,0.2196,48,4,cluster-by-stem,0.733,2.9908,0.1447,0.9795,0.5976,0.3248,0.693,0.6959,0.4606,0.4571,4850/48500
+CleanBonafideVsCloakedSynth/protectyouraudio_seedvc,WavLM,0.1843,"[0.1786, 0.1893]",0.2041,"[0.1920, 0.2196]",0.0423,0.0052,48,4,cluster-by-stem,0.9971,1.7565,0.3627,0.8988,0.1286,0.0249,0.8251,0.837,0.5881,0.6045,4850/48500

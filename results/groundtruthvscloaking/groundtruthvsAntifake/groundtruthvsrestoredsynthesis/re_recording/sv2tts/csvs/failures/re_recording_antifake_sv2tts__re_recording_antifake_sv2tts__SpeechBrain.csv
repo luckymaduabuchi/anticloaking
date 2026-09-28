@@ -1,0 +1,2 @@
+stem,trial,ref_stem,reason
+fakeavceleb_01377_Asian(East)_men_id04884,genuine,fakeavceleb_01377_Asian(East)_men_id04884,"Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (2, 2) at dimension 2 of input [1, 80, 1]"

@@ -1,0 +1,5 @@
+condition,table,old_STOI_mean,old_STOI_median,old_PESQ_mean,old_PESQ_median,old_SI_SDR_mean_dB,old_SI_SDR_median_dB,old_SI_SDR_valid_share,old_quality_N,new_STOI_mean,new_STOI_median,new_PESQ_mean,new_PESQ_median,new_SI_SDR_mean_dB,new_SI_SDR_median_dB,new_SI_SDR_valid_share,new_quality_N
+cloak/POP,groundtruthvscloaking/groundtruthvsPOP/gorundtruthvscloaked,0.9709,0.9766,2.9218,2.9711,16.2713,16.6128,0.996,4864,0.9709,0.9766,2.9218,2.9711,16.2713,16.6128,0.996,4864
+cloak/antifake,cleanbonafidevscleansynth/ANTIFAKE,0.7522,0.8185,1.4578,1.3314,10.9668,12.1666,0.898,4844,0.7522,0.8185,1.4578,1.3314,10.9668,12.1666,0.898,4844
+cloak/attackvc,groundtruthvscloaking/groundtruthvsattackvc/groundtruthvscloaked,0.8886,0.9707,3.7818,3.9479,-35.0076,-36.5383,0.063,4815,0.8886,0.9707,3.7818,3.9479,-35.0076,-36.5383,0.063,4815
+cloak/protectyouraudio,groundtruthvscloaking/groundtruthvsprotectyouraudio/groundtruthvscloaked,0.9411,0.9438,3.4762,3.5286,-7.7368,-7.8075,0.002,4850,0.9411,0.9438,3.4762,3.5286,-7.7368,-7.8075,0.002,4850

@@ -1,0 +1,156 @@
+kind,method,synth,paired_EER_verdict,technique,gain,label
+cloaked_vs_ceiling,POP,sv2tts,partly protected (2/3 verifiers),,,
+cloaked_vs_ceiling,attackvc,f5tts,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,attackvc,sv2tts,partly protected (2/3 verifiers),,,
+cloaked_vs_ceiling,attackvc,seedvc,partly protected (1/3 verifiers),,,
+cloaked_vs_ceiling,POP,f5tts,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,POP,seedvc,partly protected (2/3 verifiers),,,
+cloaked_vs_ceiling,Antifake,sv2tts,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,protectyouraudio,f5tts,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,Antifake,f5tts,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,Antifake,seedvc,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,protectyouraudio,seedvc,"PROTECTED (EER significantly higher, all verifiers)",,,
+cloaked_vs_ceiling,protectyouraudio,sv2tts,"PROTECTED (EER significantly higher, all verifiers)",,,
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),adaptive_filter_centroid,,adaptive_filter_centroid_pop_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),adaptive_filter_centroid,,adaptive_filter_centroid_pop_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),adaptive_filter_centroid,,adaptive_filter_centroid_pop_sv2tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),downsampling,,downsampling_pop_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),downsampling,,downsampling_pop_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),downsampling,,downsampling_pop_f5tts
+restoration_vs_baseline,POP,f5tts,partial (1/3),ensemble_averaging_perturbed,,ensemble_averaging_perturbed_pop_f5tts
+restoration_vs_baseline,POP,seedvc,no,ensemble_averaging_perturbed,,ensemble_averaging_perturbed_pop_seedvc
+restoration_vs_baseline,POP,seedvc,no,highpass,,highpass_pop_seedvc
+restoration_vs_baseline,POP,f5tts,partial (2/3),highpass,,highpass_pop_f5tts
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),ensemble_averaging_perturbed,,ensemble_averaging_perturbed_pop_sv2tts
+restoration_vs_baseline,POP,sv2tts,no,highpass,,highpass_pop_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),lowpass_gain,gain_1.0,lowpass_pop_gain1.0_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),lowpass_gain,gain_1.0,lowpass_pop_gain1.0_seedvc
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),lowpass_gain,gain_1.2,lowpass_pop_gain1.2_f5tts
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),lowpass_gain,gain_1.0,lowpass_pop_gain1.0_sv2tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),lowpass_gain,gain_1.2,lowpass_pop_gain1.2_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),lowpass_gain,gain_1.2,lowpass_pop_gain1.2_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),lowpass_gain,gain_1.4,lowpass_pop_gain1.4_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),lowpass_gain,gain_1.6,lowpass_pop_gain1.6_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),lowpass_gain,gain_1.4,lowpass_pop_gain1.4_sv2tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),lowpass_gain,gain_1.4,lowpass_pop_gain1.4_seedvc
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),lowpass_gain,gain_1.6,lowpass_pop_gain1.6_f5tts
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),lowpass_gain,gain_1.6,lowpass_pop_gain1.6_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),lowpass_gain,gain_1.8,lowpass_pop_gain1.8_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),lowpass_gain,gain_1.8,lowpass_pop_gain1.8_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),lowpass_gain,gain_1.8,lowpass_pop_gain1.8_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),lowpass_gain,gain_2.0,lowpass_pop_gain2.0_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),lowpass_gain,gain_2.0,lowpass_pop_gain2.0_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),lowpass_gain,gain_2.0,lowpass_pop_gain2.0_sv2tts
+restoration_vs_baseline,POP,f5tts,partial (1/3),mel_spectrogram_inversion,,mel_spectrogram_inversion_pop_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),mel_spectrogram_inversion,,mel_spectrogram_inversion_pop_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),mel_spectrogram_inversion,,mel_spectrogram_inversion_pop_sv2tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),quantization,,quantization_pop_seedvc
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),quantization,,quantization_pop_f5tts
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),quantization,,quantization_pop_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),re_recording,,re_recording_pop_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),re_recording,,re_recording_pop_seedvc
+restoration_vs_baseline,POP,sv2tts,worse (all verifiers),re_recording,,re_recording_pop_sv2tts
+restoration_vs_baseline,POP,f5tts,worse (all verifiers),second_cloak_noise,,second_cloak_noise_pop_f5tts
+restoration_vs_baseline,POP,sv2tts,no,second_cloak_noise,,second_cloak_noise_pop_sv2tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),second_cloak_noise,,second_cloak_noise_pop_seedvc
+restoration_vs_baseline,POP,f5tts,partial (2/3),spectral_subtraction,,spectral_subtraction_pop_f5tts
+restoration_vs_baseline,POP,seedvc,worse (all verifiers),spectral_subtraction,,spectral_subtraction_pop_seedvc
+restoration_vs_baseline,POP,f5tts,partial (1/3),upsampling,,upsampling_pop_f5tts
+restoration_vs_baseline,POP,sv2tts,no,spectral_subtraction,,spectral_subtraction_pop_sv2tts
+restoration_vs_baseline,POP,seedvc,no,upsampling,,upsampling_pop_seedvc
+restoration_vs_baseline,POP,sv2tts,no,upsampling,,upsampling_pop_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),adaptive_filter_centroid,,adaptive_filter_centroid_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),adaptive_filter_centroid,,adaptive_filter_centroid_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),adaptive_filter_centroid,,adaptivefilter_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),downsampling,,downsampling_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),downsampling,,downsampling_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),downsampling,,downsampling_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,no,ensemble_averaging_perturbed,,ensemble_averaging_perturbed_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),ensemble_averaging_perturbed,,ensemble_averaging_perturbed_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),ensemble_averaging_perturbed,,ensemble_averaging_perturbed_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,no,highpass,,highpass_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,no,highpass,,highpass_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,no,highpass,,highpass_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),lowpass_gain,gain_1.0,lowpass_attackvc_gain1.0_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),lowpass_gain,gain_1.0,lowpass_attackvc_gain1.0_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),lowpass_gain,gain_1.0,lowpass_attackvc_gain1.0_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),lowpass_gain,gain_1.2,lowpass_attackvc_gain1.2_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),lowpass_gain,gain_1.2,lowpass_attackvc_gain1.2_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),lowpass_gain,gain_1.2,lowpass_attackvc_gain1.2_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),lowpass_gain,gain_1.4,lowpass_attackvc_gain1.4_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),lowpass_gain,gain_1.4,lowpass_attackvc_gain1.4_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),lowpass_gain,gain_1.4,lowpass_attackvc_gain1.4_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),lowpass_gain,gain_1.6,lowpass_attackvc_gain1.6_f5tts
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),lowpass_gain,gain_1.6,lowpass_attackvc_gain1.6_sv2tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),lowpass_gain,gain_1.6,lowpass_attackvc_gain1.6_seedvc
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),lowpass_gain,gain_1.8,lowpass_attackvc_gain1.8_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),lowpass_gain,gain_1.8,lowpass_attackvc_gain1.8_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),lowpass_gain,gain_1.8,lowpass_attackvc_gain1.8_sv2tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),lowpass_gain,gain_2.0,lowpass_attackvc_gain2.0_seedvc
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),lowpass_gain,gain_2.0,lowpass_attackvc_gain2.0_f5tts
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),lowpass_gain,gain_2.0,lowpass_attackvc_gain2.0_sv2tts
+restoration_vs_baseline,attackvc,f5tts,no,mel_spectrogram_inversion,,mel_spectrogram_inversion_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),mel_spectrogram_inversion,,mel_spectrogram_inversion_attackvc_seedvc
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),quantization,,quantization_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),mel_spectrogram_inversion,,mel_spectrogram_inversion_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),quantization,,quantization_attackvc_f5tts
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),quantization,,quantization_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),re_recording,,re_recording_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),re_recording,,re_recording_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,worse (all verifiers),re_recording,,re_recording_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,worse (all verifiers),second_cloak_noise,,second_cloak_noise_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,no,second_cloak_noise,,second_cloak_noise_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,no,second_cloak_noise,,second_cloak_noise_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,REVERSE (all verifiers),spectral_subtraction,,spectral_subtraction_attackvc_f5tts
+restoration_vs_baseline,attackvc,seedvc,worse (all verifiers),spectral_subtraction,,spectral_subtraction_attackvc_seedvc
+restoration_vs_baseline,attackvc,sv2tts,no,spectral_subtraction,,spectral_subtraction_attackvc_sv2tts
+restoration_vs_baseline,attackvc,f5tts,no,upsampling,,upsampling_attackvc_f5tts
+restoration_vs_baseline,attackvc,sv2tts,no,upsampling,,upsampling_attackvc_sv2tts
+restoration_vs_baseline,attackvc,seedvc,no,upsampling,,upsampling_attackvc_seedvc
+restoration_vs_baseline,Antifake,f5tts,worse (all verifiers),adaptive_filter_centroid,,adaptive_filter_centroid_antifake_f5tts
+restoration_vs_baseline,Antifake,seedvc,no,adaptive_filter_centroid,,adaptive_filter_centroid_antifake_seedvc
+restoration_vs_baseline,Antifake,sv2tts,partial (1/3),adaptive_filter_centroid,,adaptive_filter_centroid_antifake_sv2tts
+restoration_vs_baseline,Antifake,f5tts,partial (2/3),downsampling,,downsampling_antifake_f5tts
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),downsampling,,downsampling_antifake_sv2tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),downsampling,,downsampling_antifake_seedvc
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),ensemble_averaging_perturbed,,ensemble_averaging_perturbed_antifake_seedvc
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),ensemble_averaging_perturbed,,ensemble_averaging_perturbed_antifake_sv2tts
+restoration_vs_baseline,Antifake,f5tts,no,highpass,,highpass_antifake_f5tts
+restoration_vs_baseline,Antifake,sv2tts,partial (1/3),highpass,,highpass_antifake_sv2tts
+restoration_vs_baseline,Antifake,seedvc,no,highpass,,highpass_antifake_seedvc
+restoration_vs_baseline,Antifake,f5tts,partial (2/3),lowpass_gain,gain_1.0,lowpass_antifake_gain1.0_f5tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),lowpass_gain,gain_1.0,lowpass_antifake_gain1.0_seedvc
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),lowpass_gain,gain_1.0,lowpass_antifake_gain1.0_sv2tts
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),lowpass_gain,gain_1.2,lowpass_antifake_gain1.2_f5tts
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),lowpass_gain,gain_1.2,lowpass_antifake_gain1.2_sv2tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),lowpass_gain,gain_1.2,lowpass_antifake_gain1.2_seedvc
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),lowpass_gain,gain_1.4,lowpass_antifake_gain1.4_f5tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),lowpass_gain,gain_1.4,lowpass_antifake_gain1.4_seedvc
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),lowpass_gain,gain_1.4,lowpass_antifake_gain1.4_sv2tts
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),lowpass_gain,gain_1.6,lowpass_antifake_gain1.6_f5tts
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),lowpass_gain,gain_1.6,lowpass_antifake_gain1.6_sv2tts
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),lowpass_gain,gain_1.8,lowpass_antifake_gain1.8_f5tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),lowpass_gain,gain_1.6,lowpass_antifake_gain1.6_seedvc
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),lowpass_gain,gain_1.8,lowpass_antifake_gain1.8_sv2tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),lowpass_gain,gain_1.8,lowpass_antifake_gain1.8_seedvc
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),lowpass_gain,gain_2.0,lowpass_antifake_gain2.0_f5tts
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),lowpass_gain,gain_2.0,lowpass_antifake_gain2.0_sv2tts
+restoration_vs_baseline,Antifake,seedvc,partial (1/3),lowpass_gain,gain_2.0,lowpass_antifake_gain2.0_seedvc
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),mel_spectrogram_inversion,,mel_spectrogram_inversion_antifake_f5tts
+restoration_vs_baseline,Antifake,sv2tts,partial (2/3),mel_spectrogram_inversion,,mel_spectrogram_inversion_antifake_sv2tts
+restoration_vs_baseline,Antifake,f5tts,no,quantization,,quantization_antifake_f5tts
+restoration_vs_baseline,Antifake,seedvc,REVERSE (all verifiers),mel_spectrogram_inversion,,mel_spectrogram_inversion_antifake_seedvc
+restoration_vs_baseline,Antifake,sv2tts,no,quantization,,quantization_antifake_sv2tts
+restoration_vs_baseline,Antifake,seedvc,no,quantization,,quantization_antifake_seedvc
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),re_recording,,re_recording_antifake_f5tts
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),re_recording,,re_recording_antifake_sv2tts
+restoration_vs_baseline,Antifake,seedvc,partial (2/3),re_recording,,re_recording_antifake_seedvc
+restoration_vs_baseline,Antifake,f5tts,no,second_cloak_noise,,second_cloak_noise_antifake_f5tts
+restoration_vs_baseline,Antifake,seedvc,no,second_cloak_noise,,second_cloak_noise_antifake_seedvc
+restoration_vs_baseline,Antifake,sv2tts,no,second_cloak_noise,,second_cloak_noise_antifake_sv2tts
+restoration_vs_baseline,Antifake,f5tts,partial (1/3),spectral_subtraction,,spectral_subtraction_antifake_f5tts
+restoration_vs_baseline,Antifake,seedvc,no,spectral_subtraction,,spectral_subtraction_antifake_seedvc
+restoration_vs_baseline,Antifake,sv2tts,REVERSE (all verifiers),spectral_subtraction,,spectral_subtraction_antifake_sv2tts
+restoration_vs_baseline,Antifake,f5tts,REVERSE (all verifiers),upsampling,,upsampling_antifake_f5tts
+restoration_vs_baseline,Antifake,sv2tts,no,upsampling,,upsampling_antifake_sv2tts
+restoration_vs_baseline,Antifake,seedvc,no,upsampling,,upsampling_antifake_seedvc

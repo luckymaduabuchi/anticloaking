@@ -1,0 +1,3 @@
+stem,trial,ref_stem,reason
+fakeavceleb_01697_Asian(East)_women_id06054,genuine,fakeavceleb_01697_Asian(East)_women_id06054,"CUDA out of memory. Tried to allocate 370.00 MiB. GPU 0 has a total capacity of 11.81 GiB of which 337.06 MiB is free. Including non-PyTorch memory, this process has 2.00 GiB memory in use. Process 23"
+fakeavceleb_01817_Asian(East)_women_id09116,genuine,fakeavceleb_01817_Asian(East)_women_id09116,"CUDA out of memory. Tried to allocate 270.00 MiB. GPU 0 has a total capacity of 11.81 GiB of which 157.25 MiB is free. Including non-PyTorch memory, this process has 1.68 GiB memory in use. Process 23"

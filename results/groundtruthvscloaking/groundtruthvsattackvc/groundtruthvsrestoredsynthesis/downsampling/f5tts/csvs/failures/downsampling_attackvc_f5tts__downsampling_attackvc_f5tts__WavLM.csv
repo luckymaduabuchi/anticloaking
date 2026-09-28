@@ -1,0 +1,2 @@
+stem,trial,ref_stem,reason
+librispeech_0497,genuine,librispeech_0497,"CUDA out of memory. Tried to allocate 2.64 GiB. GPU 0 has a total capacity of 11.81 GiB of which 1014.50 MiB is free. Including non-PyTorch memory, this process has 6.33 GiB memory in use. Process 230"

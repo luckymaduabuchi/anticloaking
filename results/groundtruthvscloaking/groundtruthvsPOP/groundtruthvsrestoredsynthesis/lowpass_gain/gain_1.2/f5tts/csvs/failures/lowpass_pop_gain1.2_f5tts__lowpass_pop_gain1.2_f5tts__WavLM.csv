@@ -1,0 +1,3 @@
+stem,trial,ref_stem,reason
+asvspoof_0063,genuine,asvspoof_0063,"CUDA out of memory. Tried to allocate 1.31 GiB. GPU 0 has a total capacity of 11.81 GiB of which 1.25 GiB is free. Process 2307806 has 3.74 GiB memory in use. Including non-PyTorch memory, this proces"
+fakeavceleb_01338_Asian(East)_men_id03965,genuine,fakeavceleb_01338_Asian(East)_men_id03965,"CUDA out of memory. Tried to allocate 310.00 MiB. GPU 0 has a total capacity of 11.81 GiB of which 332.06 MiB is free. Process 2307806 has 5.33 GiB memory in use. Including non-PyTorch memory, this pr"

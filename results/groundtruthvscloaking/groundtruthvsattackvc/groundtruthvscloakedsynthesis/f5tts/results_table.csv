@@ -1,0 +1,4 @@
+Data,SV,EER,EER_CI95,TAR@1%,TAR@1%_CI95,TAR@0.1%,TAR@0.01%,nFA@0.1%,nFA@0.01%,CI_method,minDCF,d_prime,overlap_coef,ROC_AUC,pAUC@1%FAR,pAUC@0.1%FAR,target_mean,target_median,impostor_mean,impostor_median,#T/#I
+CleanBonafideVsCloakedSynth/attackvc_f5tts,SB-ECAPA,0.0213,"[0.0189, 0.0243]",0.9696,"[0.9642, 0.9747]",0.8867,0.2616,48,4,cluster-by-stem,0.2879,4.7609,0.0401,0.9966,0.9166,0.5806,0.6718,0.7081,0.0308,0.0269,4863/48630
+CleanBonafideVsCloakedSynth/attackvc_f5tts,Resemblyzer,0.0271,"[0.0239, 0.0302]",0.9585,"[0.9519, 0.9646]",0.8382,0.0763,48,4,cluster-by-stem,0.3492,4.627,0.0495,0.9965,0.8924,0.5007,0.8741,0.8911,0.5391,0.5364,4863/48630
+CleanBonafideVsCloakedSynth/attackvc_f5tts,WavLM,0.1006,"[0.0963, 0.1047]",0.6578,"[0.6412, 0.6749]",0.4047,0.1518,48,4,cluster-by-stem,0.7639,2.3527,0.1985,0.9682,0.5513,0.3006,0.9289,0.9501,0.5981,0.6062,4863/48630
